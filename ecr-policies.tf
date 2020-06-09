@@ -1,6 +1,6 @@
 resource aws_ecr_repository_policy default {
-  repository   = aws_ecr_repository.default.name
-  policy = <<EOF
+  repository = aws_ecr_repository.default.name
+  policy     = <<EOF
 {
   "Version": "2008-10-17",
   "Statement": [

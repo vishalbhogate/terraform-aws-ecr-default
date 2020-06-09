@@ -8,6 +8,6 @@ variable "trust_accounts" {
 }
 
 variable "required_ecr_lifecyle" {
-  default = false
+  default     = false
   description = "true/false ECR repository lifecycle policy"
 }
